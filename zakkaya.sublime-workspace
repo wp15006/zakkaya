@@ -1,0 +1,874 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fos",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"marig",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"of",
+				"overflow"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"var",
+				"vertical-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"wid",
+				"widows"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"p",
+				"p	padding"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"fl",
+				"fl	float: ${1:left};"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"tea",
+				"text-align"
+			],
+			[
+				"br",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"backgrounc",
+				"background-color"
+			],
+			[
+				"ovf",
+				"overflow"
+			],
+			[
+				"bordr",
+				"border-radius"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"fo",
+				"font"
+			],
+			[
+				"bb",
+				"border-bottom"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"c",
+				"clear"
+			],
+			[
+				"lists",
+				"list-style-type"
+			],
+			[
+				"borr",
+				"border-radius"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3546,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 3542,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "原稿.html",
+			"settings":
+			{
+				"buffer_size": 590,
+				"line_ending": "Windows",
+				"name": "大阪、難波町でステキな雑貨・文房具・キャラクターグッズを販売中！！"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control:",
+				"Package Control: Remove Package"
+			],
+			[
+				"settingu",
+				"Preferences: Settings - User"
+			],
+			[
+				"pacc",
+				"Package Control: Install Package"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 413.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/やすみ/Documents/zakkaya"
+	],
+	"file_history":
+	[
+		"/C/Users/やすみ/Documents/zakkaya/shoplist.html",
+		"/C/Users/やすみ/Documents/zakkaya/index.html",
+		"/C/Users/やすみ/Documents/OKICA/okica.sublime-project",
+		"/C/Users/やすみ/Documents/OKICA/okica.css",
+		"/C/Users/やすみ/Desktop/okika.html",
+		"/C/Users/やすみ/Documents/OKICA/okica.html",
+		"/C/Users/やすみ/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/やすみ/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/やすみ/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/やすみ/Downloads/pause_103/ReadMe.txt",
+		"/F/._.Trashes",
+		"/C/Users/やすみ/Links/OKICA.lnk",
+		"/C/Users/やすみ/Documents/ITC1st/contents.html",
+		"/C/Users/やすみ/Documents/daily/furikaeri.md",
+		"/C/Users/やすみ/Documents/ITC1st/ITCmyhtml1.css",
+		"/C/Users/やすみ/Documents/ITC1st/contact.html",
+		"/C/Users/やすみ/Documents/ITC1st/index.html",
+		"/C/Users/やすみ/Documents/ITC1st/information.html",
+		"/C/Users/やすみ/Documents/ITC1st/form.html",
+		"/C/Users/やすみ/Documents/ITC1st/ITC1st.sublime-project",
+		"/C/Users/やすみ/Desktop/style.css",
+		"/C/Users/やすみ/Desktop/form.html",
+		"/C/Users/やすみ/Desktop/index.html",
+		"/C/Users/やすみ/Documents/チェックアウト用/10-1",
+		"/C/Users/やすみ/Documents/sublime text/dotinstall/15-10-5.css",
+		"/C/Users/やすみ/Documents/sublime text/dotinstall/15-10-5.html",
+		"/C/Users/やすみ/Documents/corp_sample01/corp2.css",
+		"/C/Users/やすみ/Documents/corp_sample01/corp2.html",
+		"/C/Users/やすみ/Documents/corp_sample01/corp.html",
+		"/C/Users/やすみ/Documents/corp_sample01/corp.css",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_c/index.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_d/8-3.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/chapter8/8-3/sample_a.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/chapter2/sample_a.html",
+		"/C/Users/やすみ/Documents/ITC1st/ITCmyhtml1.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/readme.txt",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_a/index.html",
+		"/C/Users/やすみ/Documents/sublime text/GIT.md",
+		"/C/Users/やすみ/Documents/sublime text/ITC1st/ITCmyhtml1.html",
+		"/C/Users/やすみ/Documents/sublime text/ITCmyhtml1.html",
+		"/C/Users/やすみ/Documents/sublime text/ITCmyhtml1.css",
+		"/C/Users/やすみ/Downloads/cswnd/HSTDRV/EzInst/readme.txt",
+		"/C/Users/やすみ/Documents/sublime text/JavaScript1st.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_d/8-2.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_d/8-3.css",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/chapter8/8-2/sample_a.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/chapter8/8-1/sample_a.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_d/sample_a.css",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_d/index.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_c/sample_a.css",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_a/sample_a.css",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/chapter7/sample_a.html",
+		"/C/Users/やすみ/Documents/sublime text/html.md",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/chapter6/sample_a.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/chapter5/sample_a.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_b/index.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_b/sample_b.css",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/chapter4/sample_a.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_a/これこれ.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_a/これこれ.css",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/chapter3/sample_a/sample_a.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/chapter3/sample_b/sample_b.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/HTML5-CSS3.sublime-project",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_a/sample_a.html",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_a/README.md",
+		"/C/Users/やすみ/Documents/html.basic/README.md",
+		"/C/Users/やすみ/Documents/HTML5_CSS3/sample_b/README.md",
+		"/C/Users/やすみ/Documents/HTML5_CSS3_stepup/HTML5_CSS3_STEPUP/readme.txt",
+		"/C/Users/やすみ/Documents/html.basic/style.css",
+		"/C/Users/やすみ/Documents/html.basic/index.html",
+		"/C/Users/やすみ/Documents/sublime text/dotinstall/mycss.css",
+		"/C/Users/やすみ/Documents/html.basic/vegetable.html",
+		"/C/Users/やすみ/Documents/html.basic/fruit.html",
+		"/C/Users/やすみ/Documents/html.basic/news.html",
+		"/C/Users/やすみ/Documents/html.basic/company.html",
+		"/C/Users/やすみ/Documents/html.basic/じぶんで.html",
+		"/C/Users/やすみ/Documents/html.basic/じぶんでスタイル.css",
+		"/C/Users/やすみ/Documents/html.basic/template.html",
+		"/C/Users/やすみ/Documents/html.basic/contact.html",
+		"/C/Users/やすみ/Documents/sublime text/JavaScript.md",
+		"/C/Users/やすみ/Documents/html.basic/index.css",
+		"/C/Users/やすみ/Documents/jasmine/myhtml.html",
+		"/C/Users/やすみ/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/C/Users/やすみ/Documents/html.basic/html.basic.sublime-project",
+		"/C/Users/やすみ/Documents/sublime text/dotinstall/index5.html",
+		"/C/Users/やすみ/Documents/sublime text/dotinstall/mycss5.css",
+		"/C/Users/やすみ/Documents/sublime text/dotinstall/index.html",
+		"/C/Users/やすみ/Documents/html.basic/myhtml/myhtml1.html",
+		"/C/Users/やすみ/Documents/html.basic/myhtml1.html",
+		"/C/Users/やすみ/Documents/jasmine/fruits.html",
+		"/C/Users/やすみ/Documents/html.basic/原稿/原稿_ホーム.txt",
+		"/C/Users/やすみ/Documents/jasmine/mycss.css",
+		"/C/Users/やすみ/Documents/jasmine/DSCN4861.jpg",
+		"/C/Users/やすみ/Documents/sublime text/mymd.md",
+		"/C/Users/やすみ/Documents/sublime text/sample.txt",
+		"/C/Users/やすみ/Documents/sublime text/markd.md",
+		"/C/Users/やすみ/Documents/sublime text/first.md",
+		"/C/Users/やすみ/Documents/daily/daily.sublime-project",
+		"/C/Users/やすみ/Documents/daily/daily",
+		"/C/Users/やすみ/Documents/tutorial2/sample.md",
+		"/C/Users/やすみ/Documents/tutorial/sample.md",
+		"/C/Users/やすみ/Documents/tutorial2/README.md",
+		"/C/Users/やすみ/Documents/tutorial/README.md",
+		"/C/Users/やすみ/Documents/tutorial/yotei.md",
+		"/C/Users/やすみ/Documents/tutorial/sample.txt",
+		"/C/Users/やすみ/Documents/sublime text/first.css",
+		"/C/Users/やすみ/Documents/sublime text/top.html",
+		"/C/Users/やすみ/Documents/sublime text/ショートカットキー保存",
+		"/C/Users/やすみ/AppData/Roaming/Sublime Text 3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/C/Users/やすみ/Documents/sublime text/まいmd.md",
+		"/C/Users/やすみ/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/やすみ/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/やすみ/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"line-height",
+			"line-hight",
+			"nav",
+			"OKICAとは",
+			"margin-left",
+			"image-foot",
+			"section",
+			"						\n",
+			"height",
+			"line-height",
+			"font-size",
+			"0",
+			"main",
+			">\n",
+			"0",
+			"10",
+			"1",
+			"header",
+			"}\n",
+			"フルーツアンドベジタブルショップ",
+			"font",
+			"address",
+			"\n	",
+			";\n",
+			"auto",
+			"}\n",
+			"UTF",
+			"　セミコロン",
+			"はろーわーるどはろーわーるどはろーわーるどはろーわーるどはろーわーるどはろーわーるどはろーわーるど",
+			">"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#top-nav",
+			"2",
+			"list4",
+			"ul5"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								916,
+								916
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1711,
+								1711
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1566.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "原稿.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								590,
+								316
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "大阪、難波町でステキな雑貨・文房具・キャラクターグッズを販売中！！",
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "zakkaya.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"ITC1st.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
