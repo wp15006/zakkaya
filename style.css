@@ -1,0 +1,566 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+body{
+	background-color: #feedde;
+}
+
+body p{
+	color: #888888;
+	font-size: 12px;
+}
+
+#container{
+	width: 940px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+/*ヘッダー*/
+
+header{
+	width: 900px;
+	margin: 0 auto;
+
+}
+
+header h1{
+	width: 265px;
+	height: 60px;
+	float: left;
+}
+
+header p{
+	font-size: 11px;
+	text-align: right;
+	line-height: 200%;
+}
+
+header .bg{
+	height: 12px;
+	background-image: url(bg_img/header.png);
+}
+
+/*ナビゲーション*/
+nav{
+	float: right;
+}
+
+nav li{
+	float: left;
+	width: 121px;
+	height: 40px;
+	list-style: none;
+	text-align: center;
+	line-height: 260%;
+}
+
+nav ul li:hover{
+	background-color: red;
+}
+
+nav li:first-child{
+	background-image: url(bg_img/menu1.png);
+	background-repeat: no-repeat;
+}
+
+nav li{
+	background-image: url(bg_img/menu2.png);
+	background-repeat: no-repeat;
+}
+
+nav li:last-child{
+	background-image: url(bg_img/menu3.png);
+	background-repeat: no-repeat;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #888;
+	font-weight: bold;
+	font-size: 14px;
+	width: 118px;
+	height: 40px;
+	display: inline-block;
+}
+
+
+/*コンテンツ*/
+#contents-top{
+	width: 920px;
+	background-image: url(bg_img/main-back.png);
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	padding-top: 30px;
+	margin-left: 10px;
+}
+
+#contents{
+	width: 900px;
+	margin: 30px auto 0;
+}
+
+.top>img{
+	float: left;
+	width: 590px;
+	margin: 0 22px 0 30px;
+}
+
+.news{
+	float: right;
+	width: 268px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+}
+
+.news div{
+	border-bottom: 1px dotted #888;
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+
+.news h2{
+	line-height: 190%;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	padding-left: 26px;
+	background-color: orange;
+	background-image: url(bg_img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: 5px 4px;
+}
+
+.news h3{
+	font-size: 13px;
+	color: #663300;
+	margin-top: 4px;
+	background-image: url(bg_img/icon3.png);
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+	padding-left: 14px;
+}
+
+.news .p{
+	font-size: 12px;
+	width: 240px;
+	margin-left: 28px;
+}
+
+.news .d{
+	color: #ccc;
+	font-size: 10px;
+	text-align: right;
+}
+
+/*サイドバー*/
+#contents-top aside{
+	float: left;
+	width: 307px;
+	margin-left: 10px;
+	margin-right: 33px;
+	background-color: #e3d7bd;
+}
+
+#contents-top aside>div{
+	margin: 10px 20px 20px;
+}
+
+#contents-top aside div img{
+	margin-top: 10px;
+	border: 1px solid #fff;
+}
+
+#contents-top aside h2{
+	width: 63px;
+	padding-left: 25px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #433;
+	background-image: url(bg_img/icon2.png);
+	background-repeat: no-repeat;
+	background-position: 5px 2px;
+}
+
+#contents-top aside div h3{
+	font-size: 13px;
+	color: #888;
+}
+
+#contents-top aside div p{
+	font-size: 13px;
+}
+
+/*商品紹介のサイドば*/
+#contents .productside{
+	float: left;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 2px solid orange;
+}
+
+#contents .productside h3{
+	background-color: orange;
+	font-size: 14px;
+	padding: 3px 0 3px 5px;
+	color: #fff;
+}
+
+#contents .productside ul li{
+	list-style: none;
+	background-image: url(bg_img/icon4.png);
+	background-repeat: no-repeat;
+	background-position: 3px 12px;
+	border-bottom: 1px dotted #aaa;
+	padding: 3px 0 3px 15px;
+}
+
+#contents .productside ul li:last-child{
+	border-bottom:none;
+}
+
+#contents .productside ul li a{
+	color: #888;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+/*ショップサイド*/
+
+#contents .shopside{
+	float: left;
+	width: 230px;
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-right: 40px;
+}
+
+
+/*アーティクルtop*/
+#contents-top article{
+	float: right;
+	width: 555px;
+	margin-right: 15px;
+}
+
+#contents-top article h2{
+	width: 555px;
+	display: table;
+	height: 25px;
+	border-bottom: 1px solid #aaa;
+	padding-bottom: 2px;
+}
+
+#contents-top article h2 span{
+	display: table-cell;
+	background-color: blue;
+	color: #fff;
+	vertical-align: middle;
+}
+
+#contents-top article h2 span:first-child{
+	width: 150px;
+	font-size: 14px;
+	background-image: url(bg_img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: 3px 4px;
+	padding-left: 20px;
+}
+
+#contents-top article h2 span:last-child{
+	text-align: right;
+	font-size: 10px;
+}
+
+#contents-top article section{
+	width: 555px;
+	border-top: 1px dotted #ddd;
+}
+
+#contents-top article section h3{
+	font-size: 13px;
+	color: #888;
+}
+
+#contents-top article section p{
+	font-size: 12px;
+}
+
+#contents-top article section img{
+	float: left;
+	width: 100px;
+	margin-right: 20px;
+}
+
+#contents-top .box{
+	float: left;
+	height: 100%;
+	width: 267px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+#contents-top .textarea{
+	width: 130px;
+	display: inline-block;
+}
+
+/*以下コンテンツ流用*/
+
+#contents{
+	width: 900px;
+}
+
+#contents .orangeh2{
+	display: table;
+	width: 100%;
+	border-bottom: 1px solid #aaa;
+	padding-bottom: 2px;
+}
+
+#contents .orangeh2 span{
+	display: table-cell;
+	background-color: orange;
+	color: #fff;
+	height: 30px;
+	vertical-align: middle;
+}
+
+#contents .orangeh2 span:first-child{
+	font-size: 14px;
+	width: 150px;
+	background-image: url(bg_img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: 4px 6px;
+	padding-left: 23px;
+}
+
+#contents .orangeh2 span:last-child{
+	font-size: 10px;
+	text-align: right;
+	font-weight: normal;
+}
+
+#contents article h3{
+	font-size: 14px;
+	color: #663300;
+	background-image: url(bg_img/icon3.png);
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+	padding-left: 20px;
+}
+
+#contents .newspage{
+
+}
+
+#contents .newspage section{
+	margin: 20px 0 0;
+	border-bottom: 1px dotted #aaa;
+	padding-bottom: 20px;
+}
+
+#contents .newspage section:last-child{
+	margin-bottom: 200px;
+}
+
+#contents .newspage p{
+	width: 860px;/*左右に20ｐｘずつマージン*/
+	margin: 0 auto;
+	line-height: 180%;
+}
+
+#contents .newspage a{
+	font-size: 12px;
+	margin-left: 20px;
+	color: red;
+}
+
+#contents .staffpage section{
+	border-bottom: 1px dotted #aaa;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*yamada*/
+#contents .staffpage .staff1{
+	height: 290px;
+}
+
+#contents .staffpage .staff1 img{
+	float: left;
+	width: 445px;
+	margin: 0 20px;
+}
+
+#contents .staffpage .staff1 div{
+	float: right;
+	width: 395px;
+	margin-right: 20px;
+}
+
+/*tanaka*/
+
+#contents .staffpage .staff2{
+	height: 150px;
+}
+
+#contents .staffpage .staff2 img{
+	float: right;
+	width: 230px;
+	margin: 0 20px;
+}
+
+#contents .staffpage .staff2 div{
+	float: left;
+	width: 610px;
+	margin-left: 20px;
+}
+
+/*sato*/
+#contents .staffpage .staff3{
+	height: 150px;
+}
+
+#contents .staffpage .staff3 img{
+	float: left;
+	width: 230px;
+	margin: 0 20px;
+}
+
+#contents .staffpage .staff3 div{
+	float: right;
+	width: 610px;
+	margin-right: 20px;
+}
+
+/*ぷろだくとあーてぃくる*/
+
+.productpage{
+	width: 640px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.productpage section h4{
+	color: orange;
+	font-size: 14px;
+	background-color: #eee;
+	background-image: url(bg_img/icon1a.png);
+	background-repeat: no-repeat;
+	background-position: 3px 4px;
+	line-height: 180%;
+	padding-left: 22px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.productpage section:first-child h4{
+	margin-top: 0;
+}
+
+.productpage section .syouhin img{
+	width: 230px;
+	margin-bottom: 20px;
+}
+
+.productpage section .syouhin div{
+	width: 390px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.productpage section .syouhin div h5{
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.productpage section .syouhin div p{
+	line-height: 180%;
+}
+
+.productpage section .syouhin div p:last-child{
+	color: #833;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+/*ショップアーティクル*/
+
+.shoppage{
+	float: right;
+	width: 590px;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+
+.shoppage table{
+	width: 590px;
+	border-spacing: 0;
+}
+
+.shoppage table tr th , .shoppage table tr td{
+	border-top: dotted 1px #888;
+	height: 50px;
+}
+
+.shoppage table tr:nth-child(8) th , .shoppage table tr:last-child td{
+	border-bottom: dotted 1px #888;
+}
+
+.shoppage table tr th{
+	background-color: #ddd;
+	color: orange;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.shoppage table tr td{
+	font-size: 12px;
+	color: #888;
+	padding-left: 20px;
+}
+
+.shoppage table tr .span1{
+	font-size: 10px;
+	color: #888;
+}
+
+.shoppage table tr .span2{
+	font-size: 14px;
+	font-weight: bold;
+	color: #888;
+}
+
+/*フッター*/
+
+#border-line{
+	border-top: 13px solid #e3d7bd;
+	margin-top: 50px;
+}
+
+footer{
+	height: 39px;
+	background-image: url(bg_img/footer.png);
+	background-position: left;
+	text-align: center;
+}
+
+footer small{
+	color: #fff;
+	font-size: 10px;
+	position: relative;
+	top: 6px;
+}
